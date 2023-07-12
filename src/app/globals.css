@@ -17,11 +17,20 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.container {
+  @apply w-1/2 mt-12 max-md:w-width90;
+}
+
+.modal {
+  @apply fixed top-0 left-0 w-screen h-screen z-10 flex items-center justify-center;
+}
+
+.modal-back {
+  @apply w-full h-full absolute top-0 left-0 cursor-pointer -z-10 bg-modalBack;
 }
