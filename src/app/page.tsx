@@ -5,7 +5,6 @@ import Main from "@/components/Main";
 import Personality from "@/components/Personality";
 import Project from "@/components/Project";
 import Stack from "@/components/Stack";
-import Head from "next/head";
 
 export default function Home() {
   return (
