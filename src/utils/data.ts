@@ -51,7 +51,7 @@ export const projectArr = [
     title: "클론 인스타그램",
     stacks: ["Next.js", "Zustand", "Scss", "Typescript", "Sanity"],
     github: "https://github.com/kigpand/clonestargram",
-    link: "https://clonestargram-2z3dxbcae-kigpand.vercel.app/",
+    link: "https://clonestargram-nine.vercel.app/",
     why: [
       "Next.js 활용 - 이론 공부만 했던 next.js를 활용해 기존 React와 Next.js의 차이점을 확실히 알고 싶었습니다.",
       "Rendering Check - CSR, SSR, SSG 등 렌더링 환경을 눈으로 직접 확인해보고 싶었습니다.",
